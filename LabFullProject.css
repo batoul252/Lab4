@@ -1,0 +1,297 @@
+/* Reset and global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f5f7fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+/* Header Styling */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.bar {
+    height: 4px;
+    width: 100%;
+    background-color: #444;
+}
+
+.title {
+    color: #f4541a;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.search-input {
+    width: 220px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.user-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.login {
+    margin-left: 10px;
+    font-size: 1rem;
+    color: #444;
+    cursor: pointer;
+}
+
+/* Main Info Section */
+.main-info {
+    text-align: center;
+    background-color: #002f6c;
+    color: white;
+    padding: 20px 0;
+}
+
+.subtitle {
+    font-size: 1.4rem;
+}
+
+.trusted {
+    font-weight: bold;
+    color: #ffcc00;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.stat h3 {
+    font-size: 1.2rem;
+}
+
+/* Main Image */
+.main-image {
+    width: 100%;
+    max-width: 700px;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Sections */
+.main-dishes {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #f5f7fa;
+}
+
+.main-dishes h4 {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.main-dishes h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.food-news {
+
+    background: rgb(233, 229, 211);
+    text-align: center;
+}
+
+.food-news h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.news-item {
+    display: flex;
+    align-items: center;
+   
+    margin: 10px auto;
+    width: 60%;
+    padding: 15px;
+   
+}
+
+.news-item img {
+    width: 60px;
+    height: 60px;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+
+.news-item h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: left;
+}
+
+.trending-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* إنشاء صفين مع عمودين */
+    gap: 20px; /* مسافة بين الصور */
+    max-width:600px;
+    margin: auto;
+}
+
+.trending-item {
+    text-align: center;
+}
+
+.trending-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+
+.PeopleImage1{
+width: 40vh;
+
+}
+.home-cook img{
+    width: 40vh;
+
+}
+/* Home Cook Section */
+.home-cook {
+    text-align: center;
+    padding: 40px;
+    background-color: #ffffff;
+    /* border: 5px solid orange; */
+    margin: 40px auto;
+}
+
+.home-cook h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #e67e22;
+}
+
+.home-cook p {
+    font-size: 1.2rem;
+    margin: 50px auto;
+    max-width: 600px;
+}
+
+
+.our-people {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+    margin: 90px;
+    /* border: 5px solid orange; */
+
+}
+
+.our-people h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #e67e22;
+}
+
+.people-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.people-item {
+    text-align: center;
+    width: 20%;
+    margin: 15px;
+}
+
+.people-item img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #e67e22;
+}
+.contributors{
+    display: flex;
+}
+
+
+/* Footer Section */
+.footer {
+    /* border: 5px solid orange; */
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: 2px solid #d35400;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.footer p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Social Icons */
+.social-icons {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.social-icons span {
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+/* Footer Links */
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.footer-links div {
+    text-align: left;
+}
+
+.footer-links h4 {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 50px;
+}
+.OrangeBorder{
+    border: 30px solid #d35400;
+}
+
